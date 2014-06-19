@@ -1,0 +1,62 @@
+body {
+				min-height: 200px;
+				direction: rtl;
+				padding-top: 70px;
+				margin: 0 auto;
+			}
+			
+			* {
+				margin: 0 auto;
+				text-align: center;
+			}
+			
+			.carousel, .item {
+				max-height: 400px;
+				overflow: hidden;
+			}
+			
+			.h3 {
+				color: black !important;
+				text-shadow: none !important;
+			}
+			
+			.carousel-caption {
+				background: rgba(224,228,204, .5);
+				border-radius: 3px;
+			}
+			
+			.tc {
+				padding-top: 50px;
+			}
+			
+			.fr {
+				float:right;
+			}
+			.fl {
+				float:left;
+			}
+			.ar, input, textarea {
+				text-align: right;
+			}
+			
+			#asbs {
+				-webkit-transform: rotate(2deg) skew(2deg, 0deg);
+				-moz-transform: rotate(2deg) skew(2deg, 0deg);
+				-ms-transform: rotate(2deg) skew(2deg, 0deg);
+				-o-transform: rotate(2deg) skew(2deg, 0deg);
+				transform: rotate(2deg) skew(2deg, 0deg);
+				position: relative;
+				top: 0px;
+				left: 0px;
+				background: black;
+				color: white;
+				height: 320px;
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+			
+			#footer {
+				background: #1A1A1A;
+				height: 200px;
+				border-top: 5px solid black;
+			}
